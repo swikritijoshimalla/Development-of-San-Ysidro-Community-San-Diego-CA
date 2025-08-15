@@ -436,19 +436,5 @@
   .tab-content.active { display: block; }
 </style>
 
-<script>
-function openTab(evt, tabId) {
-  var i, tabcontent, tabbuttons;
-  tabcontent = document.getElementsByClassName("tab-content");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].classList.remove("active");
-  }
-  tabbuttons = document.querySelectorAll(".tab-buttons button");
-  tabbuttons.forEach(btn => btn.classList.remove("active"));
-  document.getElementById(tabId).classList.add("active");
-  evt.currentTarget.classList.add("active");
-}
-</script>
-
 </body>
 </html>
