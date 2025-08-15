@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Development of San Ysidro Community, San Diego, CA</title>
+<style>
+  body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+  }
+  .tab-container { 
+    width: 100%; 
+  }
+  .tab-buttons {
+    display: flex;
+    background: #333;
+    flex-wrap: wrap;
+  }
+  .tab-buttons button {
+    flex: 1;
+    padding: 12px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  .tab-buttons button:hover {
+    background: #444;
+  }
+  .tab-buttons button.active {
+    background: #006699;
+  }
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background: #f7f7f7;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  /* Added heading styles */
+  h1 {
+    font-size: 2.2em;
+    margin-top: 20px;
+    text-align: center;
+    color: #003366;
+  }
+  h2.subtitle {
+    font-size: 1.6em;
+    margin-top: 10px;
+    text-align: center;
+    color: #006699;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+
+<h1>Development of San Ysidro Community, San Diego, CA</h1>
+<h2 class="subtitle">Advocating for Better Transportation, Jobs, and Infrastructure in Our Hispanic Community</h2>
+
+
+<div class="tab-container">
+  <!-- Tab Buttons -->
+  <div class="tab-buttons">
+    <button class="active" onclick="openTab(event, 'home')">Home</button>
+    <button onclick="openTab(event, 'case-study')">Case Study</button>
+    <button onclick="openTab(event, 'facts')">Facts</button>
+    <button onclick="openTab(event, 'dashboard')">Dashboard</button>
+    <button onclick="openTab(event, 'swot')">Swot Analysis</button>
+    <button onclick="openTab(event, 'action')">Action</button>
+    <button onclick="openTab(event, 'video')">Video</button>
+    <button onclick="openTab(event, 'about')">About</button>
+  </div>
+
+  <!-- Tab Content -->
+  <div id="home" class="tab-content active">
+  <!-- Your existing Home section -->
+  <section>
+    <header>
+
+    </header>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+      <article style="flex: 1; min-width: 300px;">
+        <h1>Why This Matters</h1>
+        <p>
+          San Ysidro, located at the U.S. - Mexico border in San Diego, is home to a vibrant, predominantly Hispanic community. 
+          Many families face daily barriers such as poor public transportation to schools and parks, lack of job opportunities for Spanish-only speakers, and inadequate bus stop infrastructure. 
+          This project seeks to raise awareness and demand change.
+        </p>
+        <ul>
+          <li><strong>Population:</strong> 27,869 people</li>
+          <li><strong>Households:</strong> About 6,900 households</li>
+          <li><strong>Community Demographics:</strong>
+            <ul>
+              <li>93.8% Hispanic</li>
+              <li>3.0% White</li>
+              <li>1.7% Asian</li>
+              <li>0.9% Black or African American</li>
+              <li>0.6% Two or more races</li>
+            </ul>
+          </li>
+          <li><strong>Median Household Income:</strong> $44,300</li>
+        </ul>
+      </article>
+      <div style="flex: 1; min-width: 300px; height: 350px;">
+        <iframe 
+          src="https://www.google.com/maps?q=San+Ysidro,+San+Diego,+CA&output=embed" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <div id="case-study" class="tab-content">
+  <h1>Ensuring No One is Left Behind in San Ysidro Community</h1>
+  <h2>San Ysidro, CA</h2>
+
+  <section style="margin-top: 20px;">
+    <!-- Image 1 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Neighborhood Images</h2>
+      <img src="neighborhood.jpg" alt="Public Transportation Improvements" style="width:100%; max-width:700px;">
+      <p>
+        Expanding reliable bus routes and upgrading infrastructure to connect residents to jobs, schools, and essential services.
+      </p>
+    </div>
+    <br>
+
+    <!-- Image 2 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Social Sustainability</h2>
+      <img src="socialsustainability.jpg" alt="Job Opportunities" style="width:100%; max-width:700px;">
+      <p>
+        Empowering Spanish-only speakers and local residents through targeted job training and partnerships with local businesses.
+      </p>
+    </div>
+    <br>
+
+    <!-- Image 3 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Environmental Sustainability</h2>
+      <img src="environmentalsustainability.jpg" alt="Community Spaces" style="width:100%; max-width:700px;">
+      <p>
+        Revitalizing parks, recreational areas, and public gathering spots to promote safety, health, and community engagement.
+      </p>
+    </div>
+    <br>
+
+    <!-- Image 4 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Economic Sustainability</h2>
+      <img src="economicsustainability.jpg" alt="Youth Programs" style="width:100%; max-width:700px;">
+      <p>
+        Providing after-school programs, mentorship, and career guidance to give young people a strong foundation for the future.
+      </p>
+    </div>
+    <br>
+
+    <!-- Image 5 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Key Takeaways</h2>
+      <img src="takeaways.jpg" alt="Community Advocacy" style="width:100%; max-width:700px;">
+      <p>
+        Ensuring residents have a seat at the table in local decision-making processes, fostering transparency and inclusion.
+      </p>
+    </div>
+    <br>
+
+    <!-- Image 6 -->
+    <div style="margin-bottom: 30px;">
+      <h2>Recommendations</h2>
+      <img src="recommendations.jpg" alt="Community Advocacy" style="width:100%; max-width:700px;">
+      <p>
+        Ensuring residents have a seat at the table in local decision-making processes, fostering transparency and inclusion.
+      </p>
+    </div>
+  </section>
+</div>
+<br>
+
+<div id="facts" class="tab-content">
+  <h1>San Ysidro Facts</h1>
+
+  <!-- Fact Table -->
+  <table style="width:100%; border-collapse: collapse; margin-bottom: 20px;">
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Attribute</th>
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Value</th>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">Area</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">2.839 square miles</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">Population</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">16,752</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">Population Density</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">5,900 people per square mile</td>
+    </tr>
+  </table>
+
+  <!-- Images -->
+  <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+    <img src="racein2023.jpg" alt="Race in 2023" style="max-width: 90%; border-radius: 8px;">
+    <img src="numberofresidentsbyage.jpg" alt="Number of Residents by Age" style="max-width: 70%; border-radius: 8px;">
+    <img src="medianhouseholdincome.jpg" alt="Median Household Income" style="max-width: 70%; border-radius: 8px;">
+    <img src="educationalattainment.jpg" alt="Educational Attainment" style="max-width: 70%; border-radius: 8px;">
+    <img src="traveltimetowork.jpg" alt="Travel Time to Work" style="max-width: 70%; border-radius: 8px;">
+    <img src="meansoftransportation.jpg" alt="Means of Transportation" style="max-width: 70%; border-radius: 8px;">
+    <img src="timeleavinghometowork.jpg" alt="Time Leaving Home to Work" style="max-width: 70%; border-radius: 8px;">
+  </div>
+
+  <!-- Source -->
+  <p style="margin-top: 40px; font-size: 14px; color: #555;">
+    Source: <a href="https://www.city-data.com/neighborhood/San-Ysidro-San-Ysidro-CA.html" target="_blank">
+    City-Data San Ysidro</a>
+  </p>
+</div>
+
+
+<div id="dashboard" class="tab-content">
+    <!-- Paste Dashboard section here -->
+</div>
+
+<div id="swot" class="tab-content">
+  <h2>Stakeholder Analysis (Power vs Interest Matrix)</h2>
+  <div class="matrix">
+    <div class="box shade1">
+      <div class="box-title">High Power / Low Interest</div>
+      <p><strong>Stakeholders:</strong><br>
+        - San Diego City Council & County Government<br>
+        - State Government Agencies<br>
+        - Utility Companies<br>
+        - Waste Management Companies<br>
+        - Urban Planners & Civil Engineers
+      </p>
+      <p><em>These groups have significant decision-making power but may not be involved in daily project details unless issues arise.</em></p>
+    </div>
+
+    <div class="box shade2">
+      <div class="box-title">High Power / High Interest</div>
+      <p><strong>Stakeholders:</strong><br>
+        - Business Investors<br>
+        - Local Business Owners<br>
+        - Schools & Universities<br>
+        - Planning & Development Agencies
+      </p>
+      <p><em>These stakeholders influence policy, funding, and outcomes. They are engaged and benefit directly from success.</em></p>
+    </div>
+
+    <div class="box shade3">
+      <div class="box-title">Low Power / Low Interest</div>
+      <p><strong>Stakeholders:</strong><br>
+        - Tourists<br>
+        - Non-local Media<br>
+        - Distant Property Owners
+      </p>
+      <p><em>These individuals or groups have minimal influence or stake in the project.</em></p>
+    </div>
+
+    <div class="box shade4">
+      <div class="box-title">Low Power / High Interest</div>
+      <p><strong>Stakeholders:</strong><br>
+        - Local Residents<br>
+        - Local Businesses<br>
+        - Informal Workers<br>
+        - Youth Groups<br>
+        - Transit Riders
+      </p>
+      <p><em>They care deeply but lack formal power. Their support is critical for equitable outcomes.</em></p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .matrix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .box {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    color: #000;
+  }
+  .box-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+
+  /* Four distinct shades */
+  .shade1 { background-color: #cfd8dc; } /* Medium grey */
+  .shade2 { background-color: #bbdefb; } /* Medium blue */
+  .shade3 { background-color: #eceff1; } /* Light grey */
+  .shade4 { background-color: #e3f2fd; } /* Light Blue */
+
+  p {
+    margin: 5px 0;
+  }
+</style>
+
+  <div id="action" class="tab-content" style="background-color: #f8f8f8; padding: 40px 20px;">
+
+  <h2 style="text-align: center; color: #333; margin-bottom: 20px;">
+    Advancing the UN Sustainable Development Goals (SDGs) in San Ysidro
+  </h2>
+  <p style="max-width: 900px; margin: auto; font-size: 1.1em; line-height: 1.6; color: #555; text-align: center;">
+    Strategic improvements in San Ysidro’s public infrastructure can serve as a powerful tool for addressing inequities and building a more inclusive, resilient, and thriving community. By aligning these improvements with the United Nations Sustainable Development Goals, the neighborhood can benefit from a clear, globally recognized framework that ensures progress is measurable, equitable, and sustainable.
+  </p>
+
+  <!-- Goal 3 -->
+  <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
+    <img src="goal3.jpg" alt="Goal 3: Good Health and Well-Being" style="width: 300px; height: auto; object-fit: cover;">
+    <div style="flex: 1; padding: 20px;">
+      <h3 style="color: #2e7d32;">Goal 3: Good Health and Well-Being</h3>
+      <p>San Ysidro, achieving Good Health and Well-Being requires creating a community environment, both physical and social, that enables residents to lead healthy, active, and fulfilling lives regardless of their income, age, or background. This goal goes beyond healthcare access; it focuses on building everyday conditions that prevent illness, foster well-being, and promote equity.</p>
+      <ul>
+        <li><b>Safe, Walkable Streets</b> - Prioritizing pedestrian safety, well-marked crosswalks, adequate lighting, and smooth sidewalks to encourage daily physical activity.</li>
+        <li><b>Accessible Parks and Green Spaces</b> - Expanding and maintaining shaded, nearby parks with seating, playgrounds, and community event spaces.</li>
+        <li><b>Enhanced Waste Management and Sanitation</b> - Regular waste collection, more bins, and anti-dumping enforcement for a cleaner, healthier environment.</li>
+        <li><b>Reliable and Affordable Public Transportation</b> - Connecting residents to healthcare, fresh food, pharmacies, and essential services.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Goal 4 -->
+  <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
+    <img src="goal4.jpg" alt="Goal 4: Quality Education" style="width: 300px; height: auto; object-fit: cover;">
+    <div style="flex: 1; padding: 20px;">
+      <h3 style="color: #1565c0;">Goal 4: Quality Education</h3>
+      <p>Ensuring Quality Education in San Ysidro means providing every child, youth, and adult with equitable access to learning opportunities. Education is a pathway to success and a key tool for breaking cycles of poverty. This requires investment in academic resources and the environments that support learning.</p>
+      <ul>
+        <li><b>Modernized Public School Facilities</b> - Updated classrooms, labs, and safe play areas to support diverse learning.</li>
+        <li><b>Safe Routes to School</b> - Infrastructure that ensures children can walk or bike to school safely.</li>
+        <li><b>Expanded After-School and Enrichment Programs</b> - Tutoring, arts, sports, and STEM activities to close achievement gaps.</li>
+        <li><b>Community Learning Centers and Public Libraries</b> - Spaces offering internet access, tutoring, and adult education classes.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Goal 8 -->
+  <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
+    <img src="goal8.jpg" alt="Goal 8: Decent Work and Economic Growth" style="width: 300px; height: auto; object-fit: cover;">
+    <div style="flex: 1; padding: 20px;">
+      <h3 style="color: #ef6c00;">Goal 8: Decent Work and Economic Growth</h3>
+      <p>For San Ysidro to achieve lasting economic vitality, residents must have access to stable, well-paying jobs and clear pathways for skill development. Growth must be inclusive, culturally responsive, and environmentally sustainable.</p>
+      <ul>
+        <li><b>Upgrading Transportation Infrastructure</b> - Reliable transit connecting residents to regional job centers.</li>
+        <li><b>Supporting Local Businesses</b> - Grants, loans, and community events to boost local entrepreneurs.</li>
+        <li><b>Job Training and Workforce Development</b> - Bilingual programs for in-demand industries like healthcare and technology.</li>
+        <li><b>Encouraging Sustainable Industries and Green Jobs</b> - Careers that strengthen environmental resilience.</li>
+      </ul>
+    </div>
+  </div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
+  <img src="nooneleftbehind.jpg" alt="Ensuring No One Is Left Behind" style="width: 300px; height: auto; object-fit: cover;">
+  <div style="flex: 1; padding: 20px;">
+    <h3 style="color: #6a1b9a;">Ensuring No One Is Left Behind</h3>
+    <p>Equity must be the guiding principle behind every economic and infrastructure investment in San Ysidro. This means ensuring that the community’s most vulnerable populations are included in planning and have access to the benefits of growth and development.</p>
+    <ul>
+      <li><b>Inclusive Decision-Making</b> – Public forums, multilingual outreach, and participatory budgeting.</li>
+      <li><b>Prioritizing the Underserved</b> – Focus resources on those facing high unemployment, language barriers, and poor infrastructure.</li>
+      <li><b>Data-Driven Accountability</b> – Track progress with transparent indicators and adjust strategies as needed.</li>
+    </ul>
+  </div>
+
+
+</div>
+ 
+
+  <div id="video" class="tab-content">
+    <!-- Paste Video section here -->
+  </div>
+
+<div id="about" class="tab-content" style="background-color: #f8f8f8; padding: 40px 0;">
+  <div style="border-radius: 8px; text-align: center; background-color: #222; padding: 40px 20px; max-width: 900px; margin: auto;">
+
+    <!-- Swikriti profile -->
+    <img src="swikriti.jpg" alt="Swikriti Joshi"
+      style="
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ffffff;
+        background: #000;
+        margin-bottom: 20px;
+      ">
+
+    <h2 style="margin: 0 0 10px 0; font-size: 1.8em; color: #ffffff;">Swikriti Joshi</h2>
+    <p style="margin: 5px 0; font-size: 1.1em; color: #ccc;">San Diego State University - Graduate Student</p>
+    <p style="margin: 5px 0; font-size: 1.1em; color: #ccc;">Big Data Analytics 603 - Smart Cities and Sustainability</p>
+
+    <p style="margin: 5px 0; font-size: 1.1em; color: #ddd;">
+      Email: <a href="mailto:sjoshi2639@sdsu.edu" style="color: #ffffff; text-decoration: none;">sjoshi2639@sdsu.edu</a>
+    </p>
+
+    <p style="margin: 5px 0; font-size: 1.1em;">
+      <a href="https://www.linkedin.com/in/swikritijoshi" target="_blank" style="color: #2782d2; font-weight: bold;">
+        LinkedIn: www.linkedin.com/in/swikritijoshi
+      </a>
+    </p>
+
+    <div style="margin-top: 30px; font-size: 1.05em; line-height: 1.6; color: #f0f0f0; text-align: left;">
+      <h3>Why San Ysidro</h3>
+      <p>San Ysidro, located at the U.S. - Mexico border, is a unique community facing both opportunities and challenges shaped by its position as an international gateway. Its strategic location offers cultural richness and economic potential, but it also experiences disparities in infrastructure, access to services, and economic growth compared to other parts of San Diego. This project focuses on San Ysidro because improving its conditions directly supports Sustainable Development Goals (SDGs) such as Good Health and Well-Being, Quality Education, and Decent Work and Economic Growth, ensuring that border communities thrive alongside the rest of the city.</p>
+
+      <h3>Struggles Revealed Through Analysis</h3>
+      <p>Through spatial analysis, community data, and sustainability indicators, several critical challenges emerged. Many residents face limited access to affordable, healthy food, resulting in higher food insecurity rates. Economic opportunities are unevenly distributed, with a significant portion of the workforce in low-wage, unstable jobs. Infrastructure gaps, such as insufficient public transit coverage and underdeveloped public spaces, further limit quality of life. These struggles are interconnected, reinforcing cycles of poverty and reducing community resilience.</p>
+
+      <h3>Ensuring No One is Left Behind</h3>
+      <p>Addressing these issues requires an integrated approach that combines policy, community engagement, and targeted investment. Expanding affordable housing and improving transit links can reduce economic isolation. Supporting small businesses, job training programs, and cross-border economic initiatives can boost employment stability. Enhancing access to fresh food through urban farming, food cooperatives, and better market connectivity will help combat hunger. By prioritizing equitable development and inclusive decision-making, San Ysidro can become a model of how border communities can grow sustainably-ensuring every resident has the resources and opportunities to thrive.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function openTab(evt, tabId) {
+  var i, tabcontent, tabbuttons;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+  tabbuttons = document.querySelectorAll(".tab-buttons button");
+  tabbuttons.forEach(btn => btn.classList.remove("active"));
+  document.getElementById(tabId).classList.add("active");
+  evt.currentTarget.classList.add("active");
+}
+</script>
+
+</body>
+</html>
