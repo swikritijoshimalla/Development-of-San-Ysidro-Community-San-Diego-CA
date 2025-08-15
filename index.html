@@ -388,7 +388,7 @@
   </div>
 
 <!-- About Tab Content -->
-<div id="about" class="tab-content active" style="background-color: #f8f8f8; padding: 40px 0;">
+<div id="about" class="tab-content" style="background-color: #f8f8f8; padding: 40px 20px;">
   <div style="border-radius: 8px; text-align: center; background-color: #222; padding: 40px 20px; max-width: 900px; margin: auto;">
 
     <!-- Swikriti profile -->
@@ -436,5 +436,19 @@
   .tab-content.active { display: block; }
 </style>
 
+<script>
+function openTab(evt, tabId) {
+  var i, tabcontent, tabbuttons;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+  tabbuttons = document.querySelectorAll(".tab-buttons button");
+  tabbuttons.forEach(btn => btn.classList.remove("active"));
+  document.getElementById(tabId).classList.add("active");
+  evt.currentTarget.classList.add("active");
+}
+</script>
+    
 </body>
 </html>
