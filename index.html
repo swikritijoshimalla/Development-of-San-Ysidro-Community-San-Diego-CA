@@ -39,7 +39,7 @@
   .tab-content.active {
     display: block;
   }
-  /* Added heading styles */
+
   h1 {
     font-size: 2.2em;
     margin-top: 20px;
@@ -62,7 +62,6 @@
 
 
 <div class="tab-container">
-  <!-- Tab Buttons -->
   <div class="tab-buttons">
     <button class="active" onclick="openTab(event, 'home')">Home</button>
     <button onclick="openTab(event, 'case-study')">Case Study</button>
@@ -74,7 +73,6 @@
     <button onclick="openTab(event, 'about')">About</button>
   </div>
 
-  <!-- Tab Content -->
   <div id="home" class="tab-content active">
   <!-- Your existing Home section -->
   <section>
@@ -124,42 +122,36 @@
   <h2>San Ysidro, CA</h2>
 
   <section style="margin-top: 20px;">
-    <!-- Image 1 -->
     <div style="margin-bottom: 30px;">
       <h2>Neighborhood Images</h2>
       <img src="neighborhood.jpg" alt="Public Transportation Improvements" style="width:100%; max-width:700px;">
     </div>
     <br>
 
-    <!-- Image 2 -->
     <div style="margin-bottom: 30px;">
       <h2>Social Sustainability</h2>
       <img src="socialsustainability.jpg" alt="Job Opportunities" style="width:100%; max-width:700px;">
     </div>
     <br>
 
-    <!-- Image 3 -->
     <div style="margin-bottom: 30px;">
       <h2>Environmental Sustainability</h2>
       <img src="environmentalsustainability.jpg" alt="Community Spaces" style="width:100%; max-width:700px;">
     </div>
     <br>
 
-    <!-- Image 4 -->
     <div style="margin-bottom: 30px;">
       <h2>Economic Sustainability</h2>
       <img src="economicsustainability.jpg" alt="Youth Programs" style="width:100%; max-width:700px;">
     </div>
     <br>
 
-    <!-- Image 5 -->
     <div style="margin-bottom: 30px;">
       <h2>Key Takeaways</h2>
       <img src="takeaways.jpg" alt="Community Advocacy" style="width:100%; max-width:700px;">
     </div>
     <br>
 
-    <!-- Image 6 -->
     <div style="margin-bottom: 30px;">
       <h2>Recommendations</h2>
       <img src="recommendations.jpg" alt="Community Advocacy" style="width:100%; max-width:700px;">
@@ -171,7 +163,6 @@
 <div id="facts" class="tab-content">
   <h1>San Ysidro Facts (2023)</h1>
 
-  <!-- Fact Table -->
   <table style="width:100%; border-collapse: collapse; margin-bottom: 20px;">
     <tr style="background-color: #f2f2f2;">
       <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Attribute</th>
@@ -191,7 +182,6 @@
     </tr>
   </table>
 
-  <!-- Images -->
   <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
     <img src="racein2023.jpg" alt="Race in 2023" style="max-width: 90%; border-radius: 8px;">
     <img src="numberofresidentsbyage.jpg" alt="Number of Residents by Age" style="max-width: 70%; border-radius: 8px;">
@@ -202,7 +192,6 @@
     <img src="timeleavinghometowork.jpg" alt="Time Leaving Home to Work" style="max-width: 70%; border-radius: 8px;">
   </div>
 
-  <!-- Source -->
   <p style="margin-top: 40px; font-size: 14px; color: #555;">
     Source: <a href="https://www.city-data.com/neighborhood/San-Ysidro-San-Ysidro-CA.html" target="_blank">
     City-Data San Ysidro</a>
@@ -289,7 +278,6 @@
     margin-bottom: 8px;
   }
 
-  /* Four distinct shades */
   .shade1 { background-color: #cfd8dc; } /* Medium grey */
   .shade2 { background-color: #bbdefb; } /* Medium blue */
   .shade3 { background-color: #eceff1; } /* Light grey */
@@ -309,7 +297,6 @@
     Strategic improvements in San Ysidro’s public infrastructure can serve as a powerful tool for addressing inequities and building a more inclusive, resilient, and thriving community. By aligning these improvements with the United Nations Sustainable Development Goals, the neighborhood can benefit from a clear, globally recognized framework that ensures progress is measurable, equitable, and sustainable.
   </p>
 
-  <!-- Goal 3 -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
     <img src="goal3.jpg" alt="Goal 3: Good Health and Well-Being" style="width: 300px; height: auto; object-fit: cover;">
     <div style="flex: 1; padding: 20px;">
@@ -324,7 +311,6 @@
     </div>
   </div>
 
-  <!-- Goal 4 -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
     <img src="goal4.jpg" alt="Goal 4: Quality Education" style="width: 300px; height: auto; object-fit: cover;">
     <div style="flex: 1; padding: 20px;">
@@ -339,7 +325,6 @@
     </div>
   </div>
 
-  <!-- Goal 8 -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; margin-top: 40px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
     <img src="goal8.jpg" alt="Goal 8: Decent Work and Economic Growth" style="width: 300px; height: auto; object-fit: cover;">
     <div style="flex: 1; padding: 20px;">
@@ -368,8 +353,8 @@
 </div>
     
 </div> 
-    
-<!-- VIDEO TAB -->
+
+  
 <div id="video" class="tab-content">
   <h2 style="text-align:center;">Community Video</h2>
   <p style="text-align:center;">
@@ -381,12 +366,9 @@
   </p>
 </div>
 
-    
-<!-- About Tab Content -->
 <div id="about" class="tab-content" style="background-color: #f8f8f8; padding: 40px 20px; display: block;">
   <div style="border-radius: 8px; text-align: center; background-color: #222; padding: 40px 20px; max-width: 900px; margin: auto;">
 
-    <!-- Swikriti profile -->
     <img src="swikriti.jpg" alt="Swikriti Joshi"
       style="
         width: 150px;
